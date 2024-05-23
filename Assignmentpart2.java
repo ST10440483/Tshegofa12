@@ -1,4 +1,4 @@
-
+//Tshegofatso Petros Tshale ST10440483
 
 package com.mycompany.assignmentpart2;
 import javax.swing.JOptionPane;
@@ -6,6 +6,9 @@ import javax.swing.JOptionPane;
 public class Assignmentpart2 {
 
     public static void main(String[] args) {
+       String userName = JOptionPane.showInputDialog(null,"Please enter username");
+        String passWord = JOptionPane.showInputDialog(null,"Please enter password");
+        
         //Authenticate processes here
         //Show welcome message
         JOptionPane.showMessageDialog(null,"Welcome to EasyKanban");
